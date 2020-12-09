@@ -14,9 +14,11 @@ class _HomePageState extends State<HomePage> {
 
   Color pickerColor = Color(0xff443a49);
   Color currentColor = Color(0xff443a49);
+  Color otroColor = Color(12);
 
   void guardar() {
     double numero = double.parse(campoNumeroTemp.text);
+    print(numero);
   }
 
   void changeColor(Color color) {
